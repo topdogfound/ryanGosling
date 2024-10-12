@@ -111,6 +111,11 @@ return [
             // 'encrypt' => env('DB_ENCRYPT', 'yes'),
             // 'trust_server_certificate' => env('DB_TRUST_SERVER_CERTIFICATE', 'false'),
         ],
+        'mongodb' => [
+            'driver' => 'mongodb',
+            'dsn' => env('DB_URI', 'mongodb+srv://topdogfound:wqP1Q4yomvxtYaYC@cluster0.xvkouzj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'),
+            'database' => 'myappdb'
+        ]
 
     ],
 
