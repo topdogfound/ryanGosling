@@ -1,0 +1,33 @@
+# Ignore the Dockerfile itself (if not needed in the image)
+Dockerfile
+docker-compose.yml
+
+# Ignore version control files
+.git
+.gitignore
+
+# Ignore local development files
+node_modules
+vendor
+public/hot
+public/storage
+storage/*.key
+.env
+
+# Ignore IDE specific files
+.idea
+*.sublime-project
+*.sublime-workspace
+*.vscode
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+storage/logs/*.log
+
+# Ignore cache files
+storage/framework/cache/data/*
+storage/framework/sessions/*
+storage/framework/views/*
